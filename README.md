@@ -49,4 +49,32 @@ git branch feature-branch
 git checkout feature-branch
 ```
 3. Make changes and commit them.
+```bash
+git add . 
+git commit -m "added random feature"
+```
 4. Push the new branch to the remote repository.
+```bash
+git push -u origin feature-branch
+```
+# Task 4 (Optional): Cloning and Updating a Remote Repository
+
+1. Clone the following repository: 
+https://github.com/Lexicon-Smaland/Hello-World.git
+```bash
+git clone https://github.com/Lexicon-Smaland/Hello-World.git
+```
+2. Remove the Existing Remote Link and Link to a New Repository.
+```bash 
+git remote remove origin
+git remote add origin https://github.com/RichardOelschlager/HelloWorldLexicon.git
+```
+4. Add or modify files in the cloned project and commit the changes.
+```bash
+git add . 
+git commit -m "changed readme"
+```
+5. Push all the committed changes to the newly linked repository.
+```bash
+git push -u origin main
+```
