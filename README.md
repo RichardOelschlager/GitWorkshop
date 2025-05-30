@@ -37,3 +37,16 @@ git remote add origin https://github.com/RichardOelschlager/GitWorkshop.git
 ```bash
 git push -u origin main
 ```
+
+## 3 Task 3 (Optional): Working with Branches
+
+1. Create a new branch called feature-branch.
+```bash
+git branch feature-branch
+```
+2. Switch to the new branch.
+```bash
+git checkout feature-branch
+```
+3. Make changes and commit them.
+4. Push the new branch to the remote repository.
