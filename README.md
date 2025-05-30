@@ -10,5 +10,11 @@
 
 ``` 
 git add .
-git commit -m 
+git commit -m "Added readme and dummy function" 
+```
+3. Make additional changes to the files and commit them.
+
+```
+git add .
+git commit
 ```
