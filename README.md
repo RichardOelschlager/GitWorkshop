@@ -25,3 +25,15 @@ git log
 git checkout 492df2 -- foo.js
 git commit -m "restored foo.js to first commit"
 ```
+
+## Task 2: Connecting to a Remote Repository
+
+1. Add the remote repository to your local project.
+```bash  
+git remote add origin https://github.com/RichardOelschlager/GitWorkshop.git
+```
+2. Push all local changes to the remote repository.
+
+```bash
+git push -u origin main
+```
